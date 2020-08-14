@@ -22,6 +22,7 @@ namespace PaymentContext.Domain.Entities
         public Address Address { get; private set; } 
         public IReadOnlyCollection<Subscription> Subscriptions {get{return _subscriptions.ToArray();}}
 
+        //Teste 1234
         public void AddSubscription(Subscription subscription)
         {
             //Se já tiver uma assinatura ativa, cancela
